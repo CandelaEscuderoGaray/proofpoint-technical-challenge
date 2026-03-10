@@ -1,10 +1,10 @@
 # Data Quality Report
 
-Total input records: 10
-Total output records: 5
-Discarded entries: 1
-Corrected entries: 5
-Duplicates detected: 4
+- Total input records: 10
+- Total output records: 5
+- Discarded entries: 1
+- Corrected entries: 5
+- Duplicates detected: 4
 
 ## Deduplication Strategy
 
