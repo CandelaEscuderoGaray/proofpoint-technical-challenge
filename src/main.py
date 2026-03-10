@@ -255,11 +255,8 @@ def main():
     
     print("Valid rows:", len(normalize_rows))
 
-    for row in normalize_rows:
-        print(row)
-
     # Save the clean data to a new csv file
-    output_csv = "../output/episodes_clean.csv"
+    output_csv = "output/episodes_clean.csv"
 
     write_clean_csv(normalize_rows, output_csv)
     # Generate the report
@@ -269,7 +266,7 @@ def main():
         discarded=discarded,
         corrected=input_count - discarded - duplicates,
         duplicates=duplicates,
-        output_path="../output/report.md"
+        output_path="output/report.md"
     )
 
 
