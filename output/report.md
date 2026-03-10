@@ -6,6 +6,23 @@
 - Corrected entries: 5
 - Duplicates detected: 4
 
+## Discard Strategy 
+
+Episodes are discarded when essential information is missing:
+
+- Series Name: if missing or empty → discard.
+- Episode Number, Episode Title, and Air Date: if all three are missing or invalid →discard. Values 0 and "Unknown" are considered missing.
+
+## Corected Strategy 
+
+Episodes are corrected to ensure consistency and completeness:
+
+- Season Number: missing, empty, negative, or non-numeric values → set to 0.
+- Episode Number: missing, empty, negative, or non-numeric values → set to 0.
+- Episode Title: missing or empty → replace with "Untitled Episode"; extra whitespace and special characters are cleaned.
+- Air Date: missing, empty, or invalid → replace with "Unknown"
+
+
 ## Deduplication Strategy
 
 Episodes are considered duplicates based on normalized Series Name combined with Season Number, Episode Number or Episode Title when one of the numbers is missing.
