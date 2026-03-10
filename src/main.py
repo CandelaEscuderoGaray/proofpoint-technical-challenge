@@ -134,10 +134,10 @@ def deduplicate(episodes):
 #Function to normalized a row 
 def normalize_row(row):
 
-    seriesName = normalize_string(row["Series Name"])
+    seriesName = row["Series Name"].strip()
 
     #if series name is empty, discard the row
-    if seriesName == "":
+    if seriesName.strip() == "":
         return None
     
     season = parse_number(row["Season Number"])
