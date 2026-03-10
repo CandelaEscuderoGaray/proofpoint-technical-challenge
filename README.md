@@ -5,20 +5,7 @@ Este proyecto procesa un archivo CSV con información de episodios de series, no
 ---
 
 ## Estructura del proyecto
-PROOFPOINT-TECHNICAL-CHALLENGE
-│
-├─ data/
-│ └─ episodes.csv # Archivo de entrada con los episodios
-│
-├─ output/
-│ ├─ episodes_clean.csv # Archivo CSV limpio y normalizado
-│ └─ report.md # Informe de calidad de los datos
-│
-├─ src/
-│ └─ main.py # Código principal del programa
-│
-├─ README.md # Este archivo
-└─ .gitignore # Archivos ignorados por Git
+<img width="1104" height="654" alt="image" src="https://github.com/user-attachments/assets/6a1322a3-af98-46e7-8482-52e052b7e521" />
 
 ### Requisitos 
 - Tener Python 3 instalado.
