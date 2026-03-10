@@ -15,7 +15,7 @@ Este proyecto procesa un archivo CSV con información de episodios de series, no
 1. Clonar o descargar el repositorio.
 2. Desde la terminal, situarse en la carpeta raíz del proyecto 
 ```bash
-cd ruta/a/proofpoint-technical-challenge-C
+cd ruta/a/proofpoint-technical-challenge-B
 ```
 3. Ejecutar el programa:
 
